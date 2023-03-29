@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=",Nikita,Resumehtml,css,tags,course,fonts,img">
+    <meta name="description" content="Это сайт -  это резюме Никиты ">
+    <title>Nikita Resume</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="img/nik.jpg" alt="Фото Никиты Коробкина" width="200px">
+        <div class="nav">
+            <h1>Никита Коробкин</h1>
+            <p>Я спортсмен,который очень много лет отдал <strong>Футболу</strong>, но в итоге решил заняться<strong>
+                    Frontend-разработчиком </strong></p>
+            <p>Я люблю <em>заниматься спортом и программировать</em></p>
+        </div>
+    </div>
+    <div class="card h">
+        <h2>Мои хобби</h2>
+        <ol class="lists">
+            <li>Футбол</li>
+            <li>UFC</li>
+            <li>Программирование</li>
+        </ol>
+    </div>
+    <div class="card t">
+        <h4>Опыт работы</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Имя</th>
+                        <th>Возраст</th>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Никита</td>
+                        <td>23</td>
+                        <td>Самсон</td>
+                        <td>Кладовщик</td>
+                        <td>1.11.2019 - 15.09.2020</td>
+                    </tr>
+                    <tr>
+                        <td>Никита</td>
+                        <td>23</td>
+                        <td>Арбен</td>
+                        <td>Кладовщик</td>
+                        <td>16.09.2020 - сейчас</td>
+                    </tr>
+                    <tr>
+                        <td>Алла</td>
+                        <td>21</td>
+                        <td>Частная аптека</td>
+                        <td>Фармацевт</td>
+                        <td>1.09.2021 - 1.04.2022</td>
+                    </tr>
+                    <tr>
+                        <td>Алла</td>
+                        <td>21</td>
+                        <td>Социальная аптека</td>
+                        <td>Фармацевт</td>
+                        <td>2.04.2022 - сейчас</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+    <br>
+    <div class="card c">
+        <h4>Мои курсы</h3>
+            <ul>
+                <li>Получение профессии Frontend-разработчика</li>
+                <li>Все курсы</li>
+            </ul>
+    </div>
+    <div class="btn">
+        <h4>Список социальных сетей:</h4>
+        <a href="https://e.mail.ru/inbox/?back=1" target="_blank">Mail</a>
+        |
+        <a href="https://web.telegram.org" target="_blank">Telegram</a>
+        |
+        <a href="https://www.youtube.com" target="_blank">Youtube</a>
+    </div>
+    <form class="form">
+        <h3>Связаться со мной</h3>
+        <div class="form-row">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label> <br>
+                <input type="text" id="name" placeholder="Введите ваше имя">
+            </div>
+            <div class="form-group">
+                <label for="email">Ваш email:</label> <br>
+                <input type="email" id="email" placeholder="Введите ваш email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" class="message" cols="32" rows="5" placeholder="Введите сообщение"></textarea>
+        </div>
+    </form>
+    <button type="submit" class="btn" style="color:black">Отправить резюме</button>
+</body>
+
+</html>
